@@ -11,6 +11,166 @@
 <body>
 <h1>Take the survey to find a new 'friend'</h1>
 
+<a href="/">Home</a>
+    <form class="input-form">
+        <div class="form-group col-md-4">
+
+            <label for="input-name">Name</label>
+            <input type="text" class="form-control" id="input-name" placeholder="Jamie Doe">
+            <br>
+
+            <label for="input-email">Email</label>
+            <input type="email" class="form-control" id="input-email" placeholder="name@example.com">
+            <br>
+
+            <label for="input-photo">Link to Image</label>
+            <input type="text" class="form-control" id="input-photo" placeholder="yourFace.com/you.png">
+            <br>
+
+            <label for="input1">1. Your ideal night is a quiet night at home with a book.</label>
+            <select id="input1" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input2">2. You'd rather die than betray your friends.</label>
+            <select id="input2" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input3">3. Detention is among the worst things that could happen to you.</label>
+            <select id="input3" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input4">4. You've considered magically altering your physical appearance.</label>
+            <select id="input4" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input5">5. Having been raised by Muggles you find Wizarding customs bizarre or fascinating.</label>
+            <select id="input5" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input6">6. You aspire to being a Prefect (or have already been named one).</label>
+            <select id="input6" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input7">7. You have a thing for Quidditch players.</label>
+            <select id="input7" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input8">8. Every subject is interesting if you pay enough attention.</label>
+            <select id="input8" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input9">9. Fairy tales are for children.</label>
+            <select id="input9" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input10">10. You fight for rights of all magical creatures.</label>
+            <select id="input10" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+
 
 </body>
 </html>
