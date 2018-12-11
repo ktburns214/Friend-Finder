@@ -24,6 +24,3 @@ server.listen(PORT, function() {
   // Log (server-side) when our server has started
   console.log("Server listening on: http://localhost:" + PORT);
 });
-
-require("./app/routing/apiRouting");
-require("./app/routing/htmlRoutes");
