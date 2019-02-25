@@ -11,6 +11,170 @@
 <body>
 <h1>Take the survey to find a new 'friend'</h1>
 
+<body>
+    <h1>Survey</h1>
+    <a href="/">Home</a>
+    <form class="input-form">
+        <div class="form-group col-md-4">
 
+            <label for="input-name">Name</label>
+            <input type="text" class="form-control" id="input-name" placeholder="Jamie Doe">
+            <br>
+
+            <label for="input-email">Email</label>
+            <input type="email" class="form-control" id="input-email" placeholder="name@example.com">
+            <br>
+
+            <label for="input1">1. You are the life of the party.</label>
+            <select id="input1" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Definately not)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh yeah)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input2">2. You'd rather die than betray your friends.</label>
+            <select id="input2" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Never)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh yeah)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input3">3. Detention is among the worst things that could happen to you.</label>
+            <select id="input3" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yes)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input4">4. You frequent online friend finders.</label>
+            <select id="input4" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No, first time)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (All the time)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input5">5. You believe no one should eat meat or any kind of animal products.</label>
+            <select id="input5" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh yes!)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input6">6. You aspire to President.</label>
+            <select id="input6" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Not me)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (MAGA!)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input7">7. You have a thing for football players.</label>
+            <select id="input7" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (Nope)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Oh fo sho)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input8">8. Every subject is interesting if you pay enough attention.</label>
+            <select id="input8" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yes)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input9">9. You are an easy-going person.</label>
+            <select id="input9" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yes)</option>
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="input10">10. You fight for rights of everyone.</label>
+            <select id="input10" class="form-control">
+                <option selected>Choose...</option>
+                <option value="1">1 (No)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Yes)</option>
+            </select>
+        </div>
+
+        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Match</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
 </body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="js/logic.js"></script>
+
 </html>
